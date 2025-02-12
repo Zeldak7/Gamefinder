@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <!-- Other meta tags and styles -->
+    <title>Xbox Games - GameFinder</title>
+    <style>
+        /* Basic styling for the page */
+        body {
+          font-family: Arial, sans-serif;
+          background: #f4f4f4;
+          margin: 0;
+          padding: 0;
+          text-align: center;
+        }
+        .container {
+          max-width: 600px;
+          margin: 50px auto;
+          background: #fff;
+          padding: 20px;
+          border-radius: 8px;
+          box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        }
+        .game-title {
+          font-size: 2em;
+          margin-bottom: 10px;
+        }
+        .game-description {
+          font-size: 1em;
+          margin-bottom: 20px;
+        }
+        .buttons {
+          margin-top: 20px;
+        }
+        .buttons button {
+          padding: 10px 20px;
+          font-size: 1em;
+          margin: 0 10px;
+          cursor: pointer;
+          border: none;
+          border-radius: 5px;
+          color: #fff;
+        }
+        .like-button {
+          background-color: #4CAF50; /* Green */
+        }
+        .dislike-button {
+          background-color: #f44336; /* Red */
+        }
+      </style>
+      <button id="back-button" class="back-button ">Back</button>
+  </head>
+  <body>
+    <div class="container">
+      <div id="game-info"></div>
+      <div class="buttons">
+        <button id="like-button">I played it</button>
+        <button id="dislike-button">I haven't played it</button>
+      </div>
+    </div>
+
+    <!-- Inline script causing the CSP error -->
+    <script src="js/xbox.js"></script>
+    <script src="js/backButton.js"></script>
+  </body>
+</html>
