@@ -1,5 +1,5 @@
 // Replace with your actual RAWG API key and base URL.
-const API_KEY = "5b222bbaa5a744f6a1b9646bf3d1af3a";
+const API_KEY = "5b222bbaa5a744f6a1b9646bf3d1af3a";//key shouldnt be here but who sees this anyways
 const platform = "7"; // For example, Xbox One (verify with RAWG docs)
 const RAWG_BASE_URL = "https://api.rawg.io/api";
 
